@@ -8,3 +8,6 @@ for(let i = 0; i < 7; i++){
 // It should write the numbers 6-0
 
 
+for(let i = 6; i >= 0; i--){
+    console.log(i);
+}

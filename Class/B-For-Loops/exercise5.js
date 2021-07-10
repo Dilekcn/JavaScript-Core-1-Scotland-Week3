@@ -8,6 +8,13 @@ let newArray = [];
 
 // Write a "for" loop to ITERATE through the numbersList array
 
+
+for(let i =0; i<numbersList.length; i++){
+    if(numbersList[i]<18){
+        newArray.push(numbersList[i])
+    }
+}
+
 // Inside the "for" loop, write an "if" statement to 
 // add the number to the new array only if it is less than 18
 // Remember the "push" command
